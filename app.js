@@ -15,6 +15,7 @@ app.use(
 	cors({
 		origin: [
 			"http://localhost:10000",
+			 "https://blooddrive-backend.onrender.com/"
 		],
 		credentials: true,
 	})
